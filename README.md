@@ -138,7 +138,6 @@
 
 <h1> TASK-2 </h1>
 
-    <h1> TASK-1 </h1>
 <h5>
     <P style="text-align: center;">
         This code is a simple calculator program that allows users to perform basic arithmetic operations (addition,
