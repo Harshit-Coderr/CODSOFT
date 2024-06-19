@@ -134,3 +134,68 @@
     </h5>
     </ul>
     </li>
+
+
+<h1> TASK-2 </h1>
+
+    <h1> TASK-1 </h1>
+<h5>
+    <P style="text-align: center;">
+        This code is a simple calculator program that allows users to perform basic arithmetic operations (addition,
+        <br>subtraction, division, and multiplication) on two floating-point numbers.
+    </P>
+</h5>
+<big><b>Code Breakdown</big></b>
+<br>
+<br>
+
+<h5><i><U>Variable Declarations and Initial Prompts:-</U></i></h5>
+<ul>
+    <h5>
+        <li>float num0, num1: Two float variables are declared to store the two numbers entered by the user. float is used because it can represent numbers with decimal points.
+        </li>
+    </h5>
+</ul>
+<h5><i><U>User Input Prompt:-</U></i></h5>
+<h5>
+    <ul>
+        <li>
+            The code uses cout statements to display a user-friendly menu with instructions on how to choose the desired arithmetic operation (addition, subtraction, division, or multiplication) using characters 'a', 's', 'd', and 'm' respectively.
+            <br><br>
+        </li>
+        <li>
+            cin is used to read the user's choice stored in the character variable ap.
+            <br><br>
+        </li>
+       </h5>
+</ul>
+<h5><i><U> Inputting Numbers:-</U></i></h5>
+<b>Separate cout statements prompt the user to enter the first and second numbers, which are then stored in num0 and num1 using cin..</b>
+<br><br>
+<b> Switch Statement:-</b>
+<h5>
+    <ul>
+        <li>
+            The code uses a switch statement to handle different arithmetic operations based on the value stored in ap.            <br><br>
+        </li>
+        <li>
+            Each case ('a', 's', 'd', and 'm') checks if the user's choice matches the corresponding character.
+            <br><br>
+        </li>
+        <li>
+            If a match is found, the appropriate calculation (+, -, /, or *) is performed on num0 and num1, and the result is displayed using cout statements.
+                <br><br></li>
+        <li>
+            The default case handles any invalid user input (characters other than 'a', 's', 'd', or 'm') and displays an error message.
+            <br><br>
+        </li>
+  </h5>
+</ul>
+<h5><i><U>End of Main Function:-</U></i></h5>
+<h5>
+    <ul>
+        <li>
+            The return 0; statement indicates that the program has finished successfully
+</h5>
+</ul>
+</li>
