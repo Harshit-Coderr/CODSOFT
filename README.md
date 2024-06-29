@@ -199,108 +199,119 @@
 </ul>
 </li>
 
-<h1> TASK-3 </h1>
-<h5>
-    <P style="text-align: center;">
-        This program allows users to manage tasks by adding, viewing, marking as completed, and deleting tasks.
-    </P>
-</h5>
-<big><b>Code Breakdown</big></b>
-<br>
-<br>
-<h5><i><U>Including Libraries and Using Namespace:-</u></i></h5>
-<ul>
+   <h1> TASK-3 </h1>
     <h5>
-        <li>
-            #include <iostream>: This includes the Input/Output stream library, which allows the program to use cin
-                and cout for input and output operations.
-                <br><br></li>
-        <li>#include <windows.h>: This header file is used for Windows-specific functions. However, it seems unnecessary
-                in this code as no Windows-specific functions are used.
-                <br><br></li>
-        <li>using namespace std;: This statement allows you to use standard library functions and objects without
-            prefixing them with std::.
-</ul>
-</h5>
-</li>
-
-<h5><i><U>Main Function and Initialization :-</U></i></h5>
-<ul>
-    <h5>
-        <li>string task[50] = {""}, An array of 50 strings to store tasks. <br><br>
-        </li>
-        <li>
-            int Task_Number = 0, del_task, mark;: Integer variables for task number, task to delete, and task to mark as
-            completed.
-            <br><br>
-        </li>
-        <li>
-            int task_output = 0, Variable to store user choice from the menu. <br><br>
-        </li>
+        <P style="text-align: center;">
+            This program allows users to manage tasks by adding, viewing, marking as completed, and deleting tasks.
+        </P>
     </h5>
-</ul>
-
-<h5><i><U>Welcome Messagen :-</U></i></h5>
-<h5>
+    <big><b>Code Breakdown</big></b>
+    <br>
+    <br>
+    <h5><i><U>Including Libraries and Using Namespace:-</u></i></h5>
     <ul>
-        <li>
-            Prints a welcome message with a border.
-            <br><br>
-        </li>
-</h5>
-</ul>
-<h5><i><U> Main Loop :-</U></i></h5>
-<b>Displays a menu and gets user input for the desired operation. <br><br>
-
-
-
-
-
-  <h5><i><U> Switch Statement :-</U></i></h5>
-    <h5>
-        <ul>
+        <h5>
             <li>
-                Case 1: Adds a new task. <br><br>
-            <li>
-                Checks if the task list is full.
+                #include <iostream>: This includes the Input/Output stream library, which allows the program to use cin
+                    and cout for input and output operations.
+                    <br><br></li>
+            <li>#include <windows.h>: This header file is used for Windows-specific functions. However, it seems
+                    unnecessary
+                    in this code as no Windows-specific functions are used.
+                    <br><br></li>
+            <li>using namespace std;: This statement allows you to use standard library functions and objects without
+                prefixing them with std::.
+    </ul>
+    </h5>
+    </li>
+
+  <h5><i><U>Main Function and Initialization :-</U></i></h5>
+    <ul>
+        <h5>
+            <li>string task[50] = {""}, An array of 50 strings to store tasks. <br><br>
             </li>
             <li>
-                - Prompts the user to enter a new task and adds it to the list.
-            </li>
-            </li>
-            <li>
-                Case 2: Displays all tasks
+                int Task_Number = 0, del_task, mark;: Integer variables for task number, task to delete, and task to
+                mark as
+                completed.
                 <br><br>
             </li>
             <li>
-                Case 3: Marks a task as completed by appending "task is completed" to the task string.
-          <br><br>
+                int task_output = 0, Variable to store user choice from the menu. <br><br>
             </li>
-            <li>
-                Case 4: Deletes a task.
-            <li>
-                Prompts the user to enter the task number to delete.
-            </li>
-            <li>
-                Moves subsequent tasks up one position to fill the gap. </li>
-            </li>
-            <li>
-                Decrements the task count.
-            </li>
-            </li>
-            <li>
-                Case 5: Terminates the program. <br><br>
-            <li>
-                - Default: Handles invalid input.
-            </li>
-    </h5>
+        </h5>
     </ul>
-    </li>
-   <h5><i><U>End of Main Function:-</U></i></h5>
+
+<h5><i><U>Welcome Messagen :-</U></i></h5>
     <h5>
         <ul>
             <li>
-                The return 0; statement indicates that the program has finished successfully
+                Prints a welcome message with a border.
+                <br><br>
+            </li>
     </h5>
     </ul>
-    </li>
+    <h5><i><U> Main Loop :-</U></i></h5>
+    <b>Displays a menu and gets user input for the desired operation. <br><br>
+    <h5><i><U> Switch Statement :-</U></i></h5>
+        <h5>
+            <ul>
+             <li>
+                    <i>Case 1: Adds a new task.</i> <br><br>
+                </li>
+                <ul>
+                    <li>
+                        Checks if the task list is full.
+                    </li>
+                    <br>
+                    <li>
+                        - Prompts the user to enter a new task and adds it to the list.
+                    </li>
+                </ul>
+                <br><br>
+                <li>
+                    Case 2: Displays all tasks
+                    <br><br>
+                </li>
+                <li>
+                    Case 3: Marks a task as completed by appending "task is completed" to the task string.
+         <br><br>
+                </li>
+                <li>
+                    <i>Case 4: Deletes a task.</i> <br><br>
+                </li>
+                <ul>
+                    <li>
+                        Prompts the user to enter the task number to delete.
+                    </li>
+                    <br>
+                    <li>
+                        Moves subsequent tasks up one position to fill the gap. </li>
+                    </li>
+                    <br>
+                    <li>
+                        Decrements the task count.
+                    </li>
+                </ul>
+                <br><br>
+  <li>
+                    <i>
+                        Case 5: Terminates the program. <br><br>
+                </li>
+                <ul>
+                    <li>
+                        - Default: Handles invalid input.
+                    </li>
+                </ul>
+
+
+</ul>
+    <h5><i><U>End of Main Function:-</U></i></h5>
+                <h5>
+                    <ul>
+                        <li>
+                            The return 0; statement indicates that the program has finished successfully
+                </h5>
+            </ul>
+            </li>
+
